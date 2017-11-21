@@ -52,19 +52,19 @@ def scrape():
 
 		# notify  if any values change, and don't notify
 		# if a parameter is skipped
-		if periodChange != periods and args.skipperiod == False:
+		if periodChange != "none" and periodChange != periods and args.skipperiod == False:
 			print "Time period changed to: " + str(periods)
 			periodChange = periods
 
-		if tempChange != temps and args.skiptemp == False:
+		if tempChange != "none" and tempChange != temps and args.skiptemp == False:
 			print "Temperature changed to: " + str(temps)
 			tempChange = temps
 
-		if descChange != descs and args.skipdesc == False:
+		if descChange != "none" and descChange != descs and args.skipdesc == False:
 			print "Long description changed to: " + str(descs)
 			descChange = descs
 
-		if short_descChange != short_descs and args.skipshort_desc == False:
+		if short_descChange != "none" and short_descChange != short_descs and args.skipshort_desc == False:
 			print "Short description changed to: " + str(short_descs)
 			short_descChange = short_descs
 
