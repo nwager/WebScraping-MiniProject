@@ -9,6 +9,8 @@ The .py file scrapes the Portland weather forecast from forecast.weather.gov and
 
 To run the file, type "runwebscraper.py 5 1000". The  '5' and '1000' can be any numbers, but they are required. The '5' is the amount of seconds in between each scrape. The minimum interval is 2 seconds. The '1000' is the number of cycles the scraping loop goes through. To end the program, either wait until the loop reaches the the required cycles to break, or press ctrl + c in the CLI.
 
+NOTE: if typing "runwebscraper.py" doesn't work, type "python runwebscraper.py".
+
 To skip any of the 4 parameters, type after runwebscraper.py:
 
   --skipperiod (skip time period)
