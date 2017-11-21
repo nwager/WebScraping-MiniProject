@@ -3,6 +3,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import time
 import argparse
+import pickle
 
 # pip install -r requirements.txt for packages
 
@@ -20,6 +21,7 @@ def scrape():
 	parser.add_argument('--skipdesc', action='store_true')
 	parser.add_argument('--skiptemp', action='store_true')
 	parser.add_argument('integer', type=int)
+	parser.add_argument('numoftimes', type=int)
 	args = parser.parse_args()
 
 	print(args)
@@ -28,7 +30,9 @@ def scrape():
 	short_descChange = "none"
 	tempChange = "none"
 	descChange = "none"
-	
+
+	numberOfScrapes = args.numoftimes;
+	scrapeCounter = 0
 
 	while True:
 
@@ -90,6 +94,11 @@ def scrape():
 		        "period": periods
 		    })
 		print(weather)
+
+		scrapeCounter += 1
+
+		if (scrapeCounter >=  numberOfScrapes):
+			break
 
 		if args.integer < 2:
 			time.sleep(2)
