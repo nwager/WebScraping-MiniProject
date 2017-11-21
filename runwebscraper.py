@@ -8,7 +8,7 @@ import pickle
 # pip install -r requirements.txt for packages
 
 # example: to skip scraping the temperature, type into CLI:
-#     runwebscraper.py --skiptemp 5
+#     runwebscraper.py --skiptemp 5 40
 # you have to type an integer with the command
 # this tells the program to run every 'integer' seconds
 
