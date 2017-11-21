@@ -16,4 +16,4 @@ To run the file, type "runwebscraper.py 5". The  "5" can be any number, but has 
   
   --skipshort_desc (skip short description)
 
-The program prints changes if it detects any. It also arranges all the data in a pandas table (pandas.DataFrame).
+The program prints any changes it detects. It also arranges all the data in a pandas table (pandas.DataFrame).
