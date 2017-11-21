@@ -6,7 +6,7 @@ Before running the .py file, type "pip install -r requirements.txt" to download 
 
 The .py file scrapes the Portland weather forecast from forecast.weather.gov and gets the high and low temperatures, time period, short description, and long description.
 
-To run the file, type "runwebscraper.py 5". The  "5" can be any number, but has to be included. It is the amount of seconds in between each scrape. To skip any of the 4 parameters, type after runwebscraper.py:
+To run the file, type "runwebscraper.py 5". The  "5" can be any number, but has to be included. It is the amount of seconds in between each scrape. The minimum interval is 2 seconds. To skip any of the 4 parameters, type after runwebscraper.py:
 
   --skipperiod (skip time period)
   
