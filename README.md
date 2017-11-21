@@ -1,6 +1,7 @@
 # WebScraping-MiniProject
-My runwebscraper.py and requirements.txt files.
-These files are meant for a CLI.
+My runwebscraper.py and requirements.txt files. These files are meant for a CLI.
+
+First, install the runwebscraper.py and requirements.txt file, put them in a folder, and get in that directory.
 
 Before running the .py file, type "pip install -r requirements.txt" to download the required packages for scraping.
 
