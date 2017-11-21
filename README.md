@@ -11,7 +11,7 @@ To run the file, type "runwebscraper.py 5 1000". The  '5' and '1000' can be any 
 
 NOTE: if typing "runwebscraper.py" doesn't work, type "python runwebscraper.py".
 
-To skip any of the 4 parameters, type after runwebscraper.py:
+To skip any of the 4 parameters, type after runwebscraper.py and before the numbers:
 
   --skipperiod (skip time period)
   
