@@ -10,7 +10,8 @@ The .py file scrapes the weather forecast from forecast.weather.gov and gets the
 To run the file without skipping any parameters, type: 
 
   weatherscraper.py 5 2 minutes 'Portland'.
-  <b>NOTE: if typing "weatherscraper.py" doesn't work, type "python weatherscraper.py".</b>
+  
+  <b>NOTE:</b> if typing "weatherscraper.py" doesn't work, type "python weatherscraper.py".
   
   The "5" specifies the amount of seconds between each scrape.
   
