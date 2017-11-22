@@ -10,16 +10,14 @@ Extract the .zip file and put the executable in PATH. For Windows:
 3. Click the Environment Variables button.  
 4. Under System Variables, select Path, then click Edit and put the executable or its folder in PATH.  
 
-First, install the weatherscraper.py and requirements.txt file, put them in a folder, and get in that directory in the CLI.
-
+Next, nstall the weatherscraper.py and requirements.txt files, put them in a folder, and get in that directory in the CLI.  
 Before running the .py file, type "pip install -r requirements.txt" to download the required packages for scraping.
 
 The .py file scrapes the weather forecast from forecast.weather.gov and gets the high and low temperatures, time period, short description, and long description.
 
 To run the file without skipping any parameters, type: 
 
-  weatherscraper.py 5 2 minutes 'Portland'.
-  
+  weatherscraper.py 5 2 minutes 'Portland'.  
   <b>NOTE:</b> if typing "weatherscraper.py" doesn't work, type "python weatherscraper.py".
   
   The "5" specifies the amount of seconds between each scrape.
