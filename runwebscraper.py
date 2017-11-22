@@ -68,7 +68,7 @@ def scrape():
          descChange = descs
 
       if short_descChange != "none" and short_descChange != short_descs and args.skipshort_desc == False:
-         print "Short description changed to: "# + str(short_descs)
+         print "Short description changed to: " + str(short_descs)
          short_descChange = short_descs
 
 		#print(short_descs)
