@@ -17,24 +17,25 @@ The .py file scrapes the weather forecast from forecast.weather.gov and gets the
 
 To run the file without skipping any parameters, type into the CLI: 
 
-  `weatherscraper.py 5 2 minutes 'Portland'`  
-  <b>NOTE:</b> if typing `weatherscraper.py` doesn't work, type `python weatherscraper.py`
-  
-  The `5` specifies the amount of seconds between each scrape.
-  
-  The `2 minutes` specifies how long the program runs. You can type any number, and after it you have to write "seconds",       "minutes", or "hours" to specify the unit of time.
-  
-  The `'Portland'` specifies the US city. Type in any city, but have quotes around it.
-  
+`weatherscraper.py 5 2 minutes 'Portland'`
+
+<b>NOTE:</b> if typing `weatherscraper.py` doesn't work, type `python weatherscraper.py`
+
+The `5` specifies the amount of seconds between each scrape.
+
+The `2 minutes` specifies how long the program runs. You can type any number, and after it you have to write "seconds",       "minutes", or "hours" to specify the unit of time.
+
+The `'Portland'` specifies the US city. Type in any city, but have quotes around it.
+
 To end the program, either wait for the time to run out or force it to end by pressing ctrl + c.
 
 To skip any of the 4 parameters, type after weatherscraper.py and before the numbers:
-```
---skipperiod (skip time period)
---skiptemp (skip temperatures)
---skipdesc (skip long description)
---skipshort_desc (skip short description)
-```
-  i.e. `weaherscraper.py --skipdesc 60 3 hours 'Los Angeles'`
+
+`--skipperiod` (skip time period)  
+`--skiptemp` (skip temperatures)  
+`--skipdesc` (skip long description)  
+`--skipshort_desc` (skip short description)
+
+i.e. `weaherscraper.py --skipdesc 60 3 hours 'Los Angeles'`
 
 The program prints any changes it detects. It also arranges all the data in a pandas table (pandas.DataFrame).
