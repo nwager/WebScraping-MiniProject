@@ -1,6 +1,15 @@
 # WebScraping-MiniProject
 My weatherscraper.py and requirements.txt files. These files are meant for a CLI.
 
+First, install ChromeDriver for the correct platform here: https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+Extract the .zip file and put the executable in PATH. For Windows:
+
+1. Start the System Control Panel applet (Start - Settings - Control Panel - System).  
+2. Select the Advanced tab.  
+3. Click the Environment Variables button.  
+4. Under System Variables, select Path, then click Edit and put the executable or its folder in PATH.  
+
 First, install the weatherscraper.py and requirements.txt file, put them in a folder, and get in that directory in the CLI.
 
 Before running the .py file, type "pip install -r requirements.txt" to download the required packages for scraping.
