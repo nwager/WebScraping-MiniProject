@@ -3,7 +3,7 @@ My weatherscraper.py and requirements.txt files. These files are meant for a CLI
 
 First, install ChromeDriver for the correct platform here: https://sites.google.com/a/chromium.org/chromedriver/downloads
 
-Extract the .zip file and put the executable in PATH. For Windows:
+Extract the .zip file and put the executable in PATH by doing this (Windows):
 
 1. Start the System Control Panel applet (Start - Settings - Control Panel - System).  
 2. Select the Advanced tab.  
@@ -30,13 +30,10 @@ To end the program, either wait for the time to run out or force it to end by pr
 
 To skip any of the 4 parameters, type after weatherscraper.py and before the numbers:
 ```
-  --skipperiod (skip time period)
-  
-  --skiptemp (skip temperatures)
-  
-  --skipdesc (skip long description)
-  
-  --skipshort_desc (skip short description)
+--skipperiod (skip time period)
+--skiptemp (skip temperatures)
+--skipdesc (skip long description)
+--skipshort_desc (skip short description)
 ```
   i.e. `weaherscraper.py --skipdesc 60 3 hours 'Los Angeles'`
 
