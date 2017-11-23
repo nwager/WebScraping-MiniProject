@@ -1,3 +1,4 @@
 pandas
 BeautifulSoup4
 requests
+splinter
