@@ -15,7 +15,7 @@ Before running the .py file, type `pip install -r requirements.txt` into the con
 
 The .py file scrapes the weather forecast from forecast.weather.gov and gets the high and low temperatures, time period, short description, and long description.
 
-To run the file without skipping any parameters, type into the CLI: 
+To run the file without skipping any parameters, type into the console: 
 
 `weatherscraper.py 5 2 minutes 'Portland'`
 
@@ -23,7 +23,7 @@ To run the file without skipping any parameters, type into the CLI:
 
 The `5` specifies the amount of seconds between each scrape. This can be any number.
 
-The `2 minutes` specifies how long the program runs. You can type any number, and after it you have to write "seconds",       "minutes", or "hours" to specify the unit of time.
+The `2 minutes` specifies how long the program runs. You can type any number, and after it you have to write `seconds`,       `minutes`, or `hours` to specify the unit of time.
 
 The `'Portland'` specifies the US city. Type in any US city, but have quotes around it.
 
