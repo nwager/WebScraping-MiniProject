@@ -10,8 +10,8 @@ Extract the .zip file and put the executable in PATH by doing this (Windows):
 3. Click the Environment Variables button.  
 4. Under System Variables, select Path, then click Edit and put the executable or its folder in PATH.  
 
-Next, nstall the weatherscraper.py and requirements.txt files, put them in a folder, and get in that directory in the CLI.  
-Before running the .py file, type "pip install -r requirements.txt" to download the required packages for scraping.
+Next, install the weatherscraper.py and requirements.txt files, put them in a folder, and get in that directory in the console.  
+Before running the .py file, type `pip install -r requirements.txt` into the console to download the required packages for scraping.
 
 The .py file scrapes the weather forecast from forecast.weather.gov and gets the high and low temperatures, time period, short description, and long description.
 
@@ -21,13 +21,13 @@ To run the file without skipping any parameters, type into the CLI:
 
 <b>NOTE:</b> if typing `weatherscraper.py` doesn't work, type `python weatherscraper.py`
 
-The `5` specifies the amount of seconds between each scrape.
+The `5` specifies the amount of seconds between each scrape. This can be any number.
 
 The `2 minutes` specifies how long the program runs. You can type any number, and after it you have to write "seconds",       "minutes", or "hours" to specify the unit of time.
 
-The `'Portland'` specifies the US city. Type in any city, but have quotes around it.
+The `'Portland'` specifies the US city. Type in any US city, but have quotes around it.
 
-To end the program, either wait for the time to run out or force it to end by pressing ctrl + c.
+To end the program, either wait for the time to run out or force it to end by pressing <b>ctrl + c</b>.
 
 To skip any of the 4 parameters, type after weatherscraper.py and before the numbers:
 
