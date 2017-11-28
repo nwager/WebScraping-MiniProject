@@ -11,8 +11,8 @@ import argparse
 # pip install -r requirements.txt for packages
 
 # example: to skip scraping the temperature, type into CLI:
-#     runwebscraper.py --skiptemp 5 40 'San Francisco'
-# you have to type an interval, number of cycles, and city in the command
+#     runwebscraper.py --skiptemp 5 40 minutes 'San Francisco'
+# you have to type an interval, time length, and city in the command
 
 def scrape():
 
