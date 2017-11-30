@@ -1,9 +1,13 @@
 # WebScraping-MiniProject
-My weatherscraper.py and requirements.txt files. These files are meant for a CLI.
+My weatherscraper.py and requirements.txt files.
 
-First, install ChromeDriver for the correct platform here: https://sites.google.com/a/chromium.org/chromedriver/downloads
+Make sure you have Python 2.7.10 up to 2.7.14 installed.
 
-Extract the .zip file and put the executable in PATH by doing this (Windows):
+Install the newest version of ChromeDriver for the correct platform here: https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+(ChromeDriver allows the program to control browsers, like opening windows and going to sites).
+
+Extract the .zip file and put the executable in your Path environmental variable by doing this (Windows):
 
 1. Start the System Control Panel applet (Start - Settings - Control Panel - System).  
 2. Select the Advanced tab.  
@@ -36,6 +40,6 @@ To skip any of the 4 parameters, type after weatherscraper.py and before the num
 `--skipdesc` (skip long description)  
 `--skipshort_desc` (skip short description)
 
-i.e. `weaherscraper.py --skipdesc 60 3 hours 'Los Angeles'`
+i.e. `weatherscraper.py --skipdesc 60 3 hours 'Los Angeles'`
 
 The program prints any changes it detects. It also arranges all the data in a pandas table (pandas.DataFrame).
