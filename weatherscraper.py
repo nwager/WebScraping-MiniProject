@@ -101,7 +101,7 @@ def scrape():
       descs = [d["title"] for d in seven_day.select(".tombstone-container img")]
 
 
-      # check if change is detected and if a parameter is skipped
+      # check if change is detected and if the parameter is not skipped
       # then notify via printing in console
 	
       if periodChange != periods and args.skipperiod == False:
