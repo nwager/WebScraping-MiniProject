@@ -153,6 +153,7 @@ def scrape():
       # if so, break the loop
       # if numberOfScrapes was set to a negative number, this will keep going until you press ctrl + c
       if (scrapeCounter >=  numberOfScrapes and numberOfScrapes >= 0):
+         print(scrapeCounter)
          break
 
       # minimum intervals of 2 seconds
