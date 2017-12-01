@@ -29,7 +29,7 @@ def scrape():
 
    args = parser.parse_args()
 
-   print(args) # print all arguments to show the user their input
+   print(args)   # print all arguments to show the user their input
 
    # if hours were specified, do some math to make the loop run on hours
    if args.timetype == "hour" or args.timetype == "hours":
@@ -46,7 +46,7 @@ def scrape():
       numberOfScrapes = args.numoftimes / args.interval
       numberOfScrapes = int(round(numberOfScrapes))
 
-   # if the type oftime is unrecognized, default to one cycle
+   # if the type of time is unrecognized, default to one cycle
    else:
       numberOfScrapes = 0
       print "UNIT OF TIME UNSPECIFIED; DEFAULT TO 1 FETCH"
