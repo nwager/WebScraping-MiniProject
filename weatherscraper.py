@@ -1,5 +1,5 @@
-import requests
-import pandas as pd
+import requests                   # import all these libraries
+import pandas as pd               # don't forget to pip install!!
 from bs4 import BeautifulSoup
 from splinter import Browser
 import time
