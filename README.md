@@ -69,4 +69,4 @@ If you got everything to work, then yay! You're done!
 
 Here's a flowchart I made using draw.io:
 
-[weatherscraper.py flowchart](/images/WeatherScraperDiagram.PNG)
+![weatherscraper.py flowchart](/images/WeatherScraperDiagram.PNG)
