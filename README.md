@@ -19,15 +19,19 @@ in your Path environmental variable by doing this (Windows):
 1. Start the System Control Panel applet (Search "System" and click - it should be the Control Panel).  
 2. Select the Advanced system settings tab.  
 3. Click the Environment Variables button.  
-4. Under System Variables, select Path, click Edit, then click Browse.
-5. Find the folder (it's probably in Downloads) and put it in the Path.
+4. Under System Variables, select Path, click Edit, then click Browse.  
+5. Find the folder (it's probably in Downloads) and put it in the Path (you can type `path` into the console to check if its in Path).
 
 Here's a slightly fast gif of that:
 
 ![How to edit Path](/images/chromedriverpath.gif)
 
-Next, install the weatherscraper.py and requirements.txt files, set up your virtual environment, and get in the directory containing the scripts in the console.  
-Before running the .py file, type `pip install -r requirements.txt` into the console to download the required packages for scraping.
+Next, follow these steps:
+
+1. Install this repository.  
+2. Put the requirements.txt and weatherscraper.py files in the folder with your virtual environment (the folder you execute python scripts in).  
+3. Set up your virtual environment.
+4. Before running the .py file, type `pip install -r requirements.txt` into the console to download the required packages for scraping.
 
 You can look at the code here, in GitHub. I left a lot of comments ;).
 
