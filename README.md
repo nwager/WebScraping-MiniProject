@@ -11,12 +11,11 @@ Install the newest version of ChromeDriver for the correct platform here: https:
 
 Extract the .zip file and put the executable in your Path environmental variable by doing this (Windows):
 
-1. Start the System Control Panel applet (Start - Settings - Control Panel - System).  
-2. Select the Advanced tab.  
+1. Start the System Control Panel applet (Search "System" and click - it should be the Control Panel).  
+2. Select the Advanced system settings tab.  
 3. Click the Environment Variables button.  
-4. Under System Variables, select Path, then click Edit and put the executable or its folder in PATH.  
-
-Next, install the weatherscraper.py and requirements.txt files, put them in a folder, set up your virtual environment, and get in that directory in the console.  
+4. Under System Variables, select Path, click Edit, click Browse, then put the .exe's folder in Path.
+Next, install the weatherscraper.py and requirements.txt files, set up your virtual environment, and get in the directory containing the scripts in the console.  
 Before running the .py file, type `pip install -r requirements.txt` into the console to download the required packages for scraping.
 
 You can look at the code here, in GitHub. I left a lot of comments ;).
@@ -32,7 +31,7 @@ To run the file without skipping any parameters, you can type this example into 
 The `5` specifies the amount of seconds between each scrape. This can be any number.
 
 The `2 minutes` specifies how long the program runs.  
-You can type any number, and after it you have to write `seconds`,       `minutes`, or `hours` to specify the unit of time.
+You can type any number, and after it you have to write `seconds`, `minutes`, or `hours` to specify the unit of time.
 
 The `'Portland'` specifies the US city. Type in any US city, but have quotes around it.
 
