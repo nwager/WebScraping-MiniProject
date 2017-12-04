@@ -64,3 +64,9 @@ i.e. `python weatherscraper.py --skipdesc 2 4 seconds 'Portland'`
 The example should look like this:
 
 ![Weather Scraping Example - skipdesc](/images/webscraperpic.PNG)
+
+If you got everything to work, then yay! You're done!
+
+Here's a flowchart I made using draw.io:
+
+[weatherscraper.py flowchart](/images/WeatherScraperDiagram.PNG)
