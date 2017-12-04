@@ -61,6 +61,6 @@ To skip any of the 4 parameters, type after weatherscraper.py and before the num
 
 i.e. `python weatherscraper.py --skipdesc 2 4 seconds 'Portland'`
 
-It should look like this:
+The example should look like this:
 
 ![Weather Scraping Example - skipdesc](/images/webscraperpic.PNG)
