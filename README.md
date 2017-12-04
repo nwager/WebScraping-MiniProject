@@ -48,7 +48,7 @@ You can type any number, and after it you have to write `seconds`, `minutes`, or
 
 The `'Portland'` specifies the US city. Type in any US city, but have quotes around it.
 
-To end the program, either wait for the time to run out or force it to end by pressing `ctrl + c`.
+To end the program, either wait for the time to run out or force it to end by pressing `ctrl + c`.  
 **NOTE:** If a window pops up saying "chromedriver.exe has stopped working" or something, that's fine; just click OK.
 
 <b>Optional Parameters</b>  
