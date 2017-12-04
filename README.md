@@ -41,14 +41,15 @@ It should look something like this:
 
 ![Weather Scraping Example](/images/skipdesc.PNG)
 
-The `5` specifies the amount of seconds between each scrape. This can be any number.
+The `2` specifies the amount of seconds between each scrape. This can be any number.
 
-The `2 minutes` specifies how long the program runs.  
+The `4 seconds` specifies how long the program runs.  
 You can type any number, and after it you have to write `seconds`, `minutes`, or `hours` to specify the unit of time.
 
 The `'Portland'` specifies the US city. Type in any US city, but have quotes around it.
 
 To end the program, either wait for the time to run out or force it to end by pressing `ctrl + c`.
+**NOTE:** If a window pops up saying "chromedriver.exe has stopped working" or something, that's fine; just click OK.
 
 <b>Optional Parameters</b>  
 To skip any of the 4 parameters, type after weatherscraper.py and before the numbers:
@@ -58,7 +59,7 @@ To skip any of the 4 parameters, type after weatherscraper.py and before the num
 `--skipdesc` (skip long description)  
 `--skipshort_desc` (skip short description)
 
-i.e. `weatherscraper.py --skipdesc 2 4 seconds 'Portland'`
+i.e. `python weatherscraper.py --skipdesc 2 4 seconds 'Portland'`
 
 It should look like this:
 
