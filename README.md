@@ -38,7 +38,7 @@ To run the file without skipping any parameters, you can type this example into 
 
 It should look something like this:
 
-
+![Weather Scraping Example](/images/skipdesc.PNG)
 
 The `5` specifies the amount of seconds between each scrape. This can be any number.
 
@@ -61,5 +61,4 @@ i.e. `weatherscraper.py --skipdesc 2 4 seconds 'Portland'`
 
 It should look like this:
 
-![Weather Scraping Example](/images/webscraperpic.PNG)
-
+![Weather Scraping Example - skipdesc](/images/webscraperpic.PNG)
