@@ -3,6 +3,9 @@
 
 Make sure you have Python 2.7.10 up to 2.7.14 installed.
 
+Used libraries: requests, pandas, BeautifulSoup4, splinter, time, argparse.  
+(all pip installed)
+
 Install the newest version of ChromeDriver for the correct platform here: https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 (ChromeDriver allows the program to control browsers, like opening windows and going to sites).
