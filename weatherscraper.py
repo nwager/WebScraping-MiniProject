@@ -105,19 +105,19 @@ def scrape():
       # then notify via printing in console
 	
       if periodChange != periods and args.skipperiod == False:
-         print("TIME PERIOD CHANGED TO: " + str(periods))
+         print("TIME PERIOD CHANGE")
          periodChange = periods
       
       if tempChange != temps and args.skiptemp == False:
-         print("TEMPERATURE CHANGED TO: " + str(temps))
+         print("TEMPERATURE CHANGE")
          tempChange = temps
 
       if descChange != descs and args.skipdesc == False:
-         print("LONG DESCRIPTION CHANGED TO: " + str(descs))
+         print("LONG DESCRIPTION CHANGE")
          descChange = descs
 
       if short_descChange != short_descs and args.skipshort_desc == False:
-         print("SHORT DESCRIPTION CHANGED TO: " + str(short_descs))
+         print("SHORT DESCRIPTION CHANGE")
          short_descChange = short_descs
 
 
