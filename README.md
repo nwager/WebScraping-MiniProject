@@ -25,8 +25,7 @@ You can look at the code here, in GitHub. I left a lot of comments ;).
 The .py file scrapes the weather forecast from forecast.weather.gov and gets the high and low temperatures, time period, short description, and long description.
 
 To run the file without skipping any parameters, you can type this example into the console:  
-`python weatherscraper.py 5 2 minutes 'Portland'`  
-<b>NOTE:</b> if this doesn't work, switch between `python weatherscraper.py` and `weatherscraper.py`
+`python weatherscraper.py 2 4 seconds 'Portland'`  
 
 The `5` specifies the amount of seconds between each scrape. This can be any number.
 
