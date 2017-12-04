@@ -1,6 +1,4 @@
 # WebScraping-MiniProject
-My weatherscraper.py and requirements.txt files.
-
 ## Installation
 
 Make sure you have Python 2.7.10 up to 2.7.14 installed.
@@ -70,3 +68,11 @@ If you got everything to work, then yay! You're done!
 Here's a flowchart I made using draw.io:
 
 ![weatherscraper.py flowchart](/images/WeatherScraperDiagram.png)
+
+### Special Thanks To  
+[Master Python Web Scraping: Get Your Data Back](https://hackernoon.com/mastering-python-web-scraping-get-your-data-back-e9a5cc653d88)  
+[How to scrape websites with Python and BeautifulSoup](https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe)  
+[Python Web Scraping Tutorial using BeautifulSoup](https://www.dataquest.io/blog/web-scraping-tutorial-python/)  
+[Python Documentation - argparse](https://docs.python.org/3/library/argparse.html)  
+[google.com](https://www.google.com/)  
+Brian
