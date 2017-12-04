@@ -76,7 +76,7 @@ Here's a flowchart I made using draw.io:
 
 ![weatherscraper.py flowchart](/images/WeatherScraperDiagram.png)
 
-That second "check if time is up" block is a mistake, but I'm not going to fix it because I don't feel like importing an new .png.
+That second "Print the table" block is a mistake, but I'm not going to fix it because I don't feel like importing an new .png.
 
 ### Special Thanks To  
 [Master Python Web Scraping: Get Your Data Back](https://hackernoon.com/mastering-python-web-scraping-get-your-data-back-e9a5cc653d88)  
