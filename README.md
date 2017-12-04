@@ -38,7 +38,7 @@ The `'Portland'` specifies the US city. Type in any US city, but have quotes aro
 
 To end the program, either wait for the time to run out or force it to end by pressing `ctrl + c`.
 
-<b>Optional Parameters</b>
+<b>Optional Parameters</b>  
 To skip any of the 4 parameters, type after weatherscraper.py and before the numbers:
 
 `--skipperiod` (skip time period)  
